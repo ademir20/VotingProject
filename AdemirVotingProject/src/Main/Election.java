@@ -24,7 +24,7 @@ public class Election {
 		int candidatesTotalAmount = ballotInfo.candidatesList.size();
 		for (int i = 0; i < totalAmountOfCandidates; i++) {
 			testCandidates.add(0);
-			testVotes.add(0);
+			testVotes.add(0); 
 		}
 		for (String vote: ballotInfo.candidatesList) {
 			String[] ballotManager = vote.split(":");
